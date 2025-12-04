@@ -19,9 +19,6 @@ saveButton.onclick = function () {
     // Send a POST request to the database JSON file
     fetch(`${dataBase}.json`, {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify({ name: contactName })
     })
     .then(response => response.json())
