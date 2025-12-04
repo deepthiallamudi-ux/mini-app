@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    input {
+        padding: 10px;
+        margin: 5px 0;
+    }
+    text-align: center;
+}
+    button {
+        background-color: coral;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        li{margin: 5px 0;}
+        cursor: pointer;
+    }
+    button:active {
+        transform: scale(0.98);
+}
+    button:hover {
+        background-color: rgb(138, 127, 159);
+    }
+    a {
+        color: darkblue;
+        text-decoration: underline;
+    }
+    a:hover {
+        color: darkred;
+    }   
+
+    h1 {
+        color: rgb(144, 22, 215);
+    }
+    p {
+        font-size: 18px;
+        color: rgb(21, 95, 7);
+    }

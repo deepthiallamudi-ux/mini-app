@@ -1,0 +1,1 @@
+export const dataBase="https://mini-app-eab5c-default-rtdb.asia-southeast1.firebasedatabase.app/";
